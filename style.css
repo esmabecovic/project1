@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/* body{
+    margin: 0;
+    /* padding: 0; */
+/* } */
+/* .wrapper{
+    width: 15%;
+    height: 720px;
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    flex-direction: column;
+}
+.wrapper> .sidebar{
+    padding: 30px;
+    color: blue;
+    text-align: center;
+    margin-bottom: 30px;
+} */
+/* .wrapper> .sidebar ul li{
+    padding: 15px;
+    list-style-type: none;
+} */
+/* .wrapper> .sidebar ul li a{
+    text-decoration: none;
+    color: grey;
+    transition: 0.5s;
+} */
+/* .wrapper> .sidebar h3{
+    display: flex;
+    justify-content: flex-start;
+    
+} */
+/* .wrapper> .sidebar h2{
+    border-bottom: 1px solid black;
+    padding: 10px;
+} */
+/* .wrapper> .sidebar ul li a:hover{
+    color: rgb(84, 68, 99);
+}  */
+body{
+    background:#f3f5f9;
+}
+.wrapper{
+    display: flex;
+    position: relative;
+}
+.wrapper> .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(227, 227, 227);
+    padding: 30px 0;
+}
+.wrapper> .sidebar> h2{
+    color: rgb(38, 137, 144);
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(210, 210, 210);
+    padding-bottom: 20px;
+}
+/* .wrapper> .sidebar> h3{
+    display: flex;
+    justify-content: flex-start;
+} */
+.wrapper> .sidebar ul li{
+    padding: 15px 2px;
+    border-bottom: 1px solid rgb(210, 210, 210);
+    border-top: 1px solid rgb(231, 230, 230);
+    list-style-type: none;
+}
+.wrapper> .sidebar ul li a{
+    color: grey;
+    text-decoration: none;
+    display: block;
+}
+.wrapper> .sidebar ul li:hover{
+    background: rgb(191, 225, 228);
+}
+.wrapper> .sidebar ul li:hover a{
+    color: white;
+}
+.wrapper >.main_content{
+    width: 100%;
+    margin-left: 200px;
+}
+.wrapper > .main_content >.header{
+    padding: 20px;
+    background-color: rgb(227, 227, 227);
+    color: black;
+    border-bottom: 1px solid rgb(210, 210, 210);
+}
+input{
+    padding: 8.5px;
+    width: 300px;
+}
+label{
+    color: rgb(38, 137, 144);
+    font-weight: 600;
+}
+p{
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: rgb(38, 137, 144);
+    font-weight: 500;
+    cursor: pointer;
+}
+/* div> .card{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+} */
+/* .card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+} */
+
